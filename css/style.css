@@ -9,53 +9,102 @@ body {
 }
 
 .container {
-  background-color: lightgray;
+  background-color: #E5E5E5;
   margin: 0 auto;
   width: 375px;
   height: 667px;
 }
 
-.title h1 {
-  background-color: lightgreen;
-  width: 100%;
-  height: 130px;
-  font-size: 200%; /* 20px */
-  font-weight: 700;
-  text-transform: capitalize;
-  text-align: center;
-  padding: 15%;
-}
-
-.bus {
-  margin-top: 10px;
-  display: inline-block;
+.title {
+  display: block;
   float:left;
-  background-color: lightblue;
-  width: 50%;
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 175px;
+}
+
+.navbar{
+  background: #fff url(../images/nav-bar.png) no-repeat top center;
+  width: 100%;
+  height: 68px;
+  display: block;
+  float:left;
+}
+
+.list{
+  margin-top: 2px;
+  display: block;
+  float:left;
+  background-color: #fff;
+  width: 100%;
   height: 80px;
 }
 
-.arrival {
-  margin-top: 10px;
+.list:hover {
+  color: #49A5CE
+}
+
+.locationicon{
+  background: #E5E5E5 url(../images/location-icon.svg) no-repeat top center;
+  width: 25px;
+  height: 23px;
+  margin: 45px 0px 25px 75px;
   display: inline-block;
-  float: right;
-  background-color: lightblue;
-  width: 50%;
-  height: 80px;
+  vertical-align: top;
 }
 
-.bus h2 {
-  font-size: 180%; /* 18px */
+.busicon{
+  background: #fff url(../images/bus-icon.svg) no-repeat top center;
+  width: 25px;
+  height: 30px;
+  margin: 25px 10px 25px 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rightarrow{
+  background: #fff url(../images/right-arrow.svg) no-repeat top center;
+  width: 25px;
+  height: 30px;
+  margin: 27px 10px 25px 15px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
+.clockicon{
+  background: #fff url(../images/clock-icon.svg) no-repeat top center;
+  width: 25px;
+  height: 25px;
+  margin:  27px 10px 27px 0px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
+h1 {
+  font-size: 200%; /* 20px */
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: top;
+  margin: 45px 0px;
+}
+
+h2 {
+  font-size: 160%; /* 16px */
   font-weight: 400;
   text-transform: capitalize;
-  text-align: left;
-  padding: 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 0px;
 }
 
-.arrival h3 {
+h3 {
   font-size: 140%; /* 14px */
   font-weight: 400;
-  text-transform: capitalize;
-  text-align: right;
-  padding: 32px;
+  display: inline-block;
+  vertical-align: top;
+  Margin: 32px 0px;
+  float: right;
 }
