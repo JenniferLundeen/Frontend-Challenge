@@ -62,11 +62,20 @@ body {
   vertical-align: top;
 }
 
+.time {
+  width: 50px;
+  height: 30px;
+  margin: 32px 0px 25px 0px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
 .rightarrow{
   background: #fff url(../images/right-arrow.svg) no-repeat top center;
   width: 25px;
   height: 30px;
-  margin: 27px 10px 25px 15px;
+  margin: 27px 10px 25px 10px;
   display: inline-block;
   vertical-align: top;
   float: right;
@@ -76,7 +85,7 @@ body {
   background: #fff url(../images/clock-icon.svg) no-repeat top center;
   width: 25px;
   height: 25px;
-  margin:  27px 10px 27px 0px;
+  margin:  27px 5px 27px 0px;
   display: inline-block;
   vertical-align: top;
   float: right;
@@ -103,8 +112,5 @@ h2 {
 h3 {
   font-size: 140%; /* 14px */
   font-weight: 400;
-  display: inline-block;
-  vertical-align: top;
-  Margin: 32px 0px;
-  float: right;
+  text-align: center;
 }
