@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: darkgray;
   font-family: sans-serif;
   font-size: 10px;
 }
@@ -11,7 +10,7 @@ body {
 .container {
   background-color: #E5E5E5;
   margin: 0 auto;
-  width:75%;
+  width:100%;
   height:925px;
 }
 
@@ -34,10 +33,10 @@ body {
 
 .status {
   width: 100%;
-  height: 20px;
+  height: 30px;
   display: block;
   float:left;
-  background: #fff url(../images/status.svg) no-repeat top center;
+  background: #fff url(../images/status.svg) no-repeat center center;
   background-size:cover;
 }
 
@@ -58,7 +57,7 @@ body {
   background: #E5E5E5 url(../images/location-icon.svg) no-repeat top center;
   width: 25px;
   height: 23px;
-  margin: 40px 0 0 25%;
+  margin: 40px 0 0 30%;
   display: inline-block;
   vertical-align: top;
 }
@@ -123,6 +122,33 @@ h3 {
   text-align: center;
   display: inline-block;
   vertical-align: top;
+}
+
+@media screen and (min-width: 414px){
+  .status {
+    height: 18px;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .locationicon {
+  margin: 40px 0 0 25%;
+  }
+  .busicon {
+    margin: 12% 0% 0% 7%;
+  }
+  h2 {
+    margin: 13% 0% 0% 2%;
+  }
+  .clockicon {
+    margin: 12% 0% 0% 10%;
+  }
+  .time {
+    margin: 13% 0% 0% 2%;
+  }
+  .rightarrow {
+    margin: 12% 5% 0% 3%;
+  }
 }
 
 @media screen and (min-width: 575px){
